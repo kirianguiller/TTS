@@ -2,7 +2,7 @@ import os
 import json
 
 
-def make_speakers_json_path(out_path):
+def make_speakers_json_path(out_path: str) -> str:
     """Returns conventional speakers.json location."""
     return os.path.join(out_path, "speakers.json")
 
